@@ -585,17 +585,20 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
-  .header-portrait-right {
-    display: none;
+  .header-portrait {
+    display: none !important;
   }
+}
 
-  .header-portrait-left {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70vw;
-    max-height: 65%;
-    bottom: 0;
-    opacity: 0.8;
+@media screen and (max-width: 1024px) {
+  .header-portrait {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-portraits {
+    display: none !important;
   }
 }
 
