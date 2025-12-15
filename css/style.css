@@ -2465,4 +2465,18 @@ form label {
   pointer-events: none;
 }
 
+.required-asterisk {
+  color: #d9534f;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.animate-box input,
+.animate-box textarea,
+.animate-box select,
+.animate-box button,
+.animate-box a {
+  pointer-events: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
