@@ -29,6 +29,39 @@ body {
   overflow: hidden;
 }
 
+.map-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.map-container:hover {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.map-nav-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.map-nav-link:hover {
+  background: #000;
+}
+
+
+
+
+
+
 .music-toggle {
   position: fixed;
   bottom: 20px;
@@ -72,6 +105,21 @@ body {
   #fh5co-location .fh5co-heading p {
     font-size: 24px;
   }
+  
+  #fh5co-location .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  #fh5co-location .col-md-10 {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  #fh5co-location .location-box {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
 }
 
 #fh5co-location .fh5co-heading {
@@ -84,10 +132,9 @@ body {
   margin-right: auto;
   border: 2px solid rgba(0, 0, 0, 0.4);
   border-radius: 0;
-  padding: 40px 35px;
+  padding: 30px 15px 30px 15px;
   background: transparent;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  overflow: hidden;
   position: relative;
 }
 
