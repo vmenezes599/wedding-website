@@ -51,6 +51,7 @@ body {
   font-weight: 600;
   transition: background 0.2s ease;
   cursor: pointer;
+  pointer-events: auto;
 }
 
 .map-nav-link:hover {
@@ -2461,6 +2462,7 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+  pointer-events: none;
 }
 
 /*# sourceMappingURL=style.css.map */
