@@ -53,6 +53,11 @@ body {
   margin-bottom: 30px;
 }
 
+#fh5co-location,
+#fh5co-rsvp {
+  scroll-margin-top: 70px;
+}
+
 #fh5co-location .fh5co-heading h2 {
   margin-bottom: 60px;
 }
@@ -80,9 +85,10 @@ body {
   border: 2px solid rgba(0, 0, 0, 0.4);
   border-radius: 0;
   padding: 40px 35px;
-  background: rgba(255, 255, 255, 0.15);
+  background: transparent;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   overflow: hidden;
+  position: relative;
 }
 
 #fh5co-location .location-box h3 {
@@ -119,6 +125,16 @@ body {
   margin: 16px auto 20px;
   border: 0;
   border-top: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+#fh5co-location .overlay {
+  pointer-events: none;
+}
+
+#fh5co-location iframe {
+  position: relative;
+  z-index: 1;
+  pointer-events: auto;
 }
 
 #fh5co-rsvp {
